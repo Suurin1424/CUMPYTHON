@@ -1,0 +1,31 @@
+# Requirements.txt - Biblioteki potrzebne do uruchomienia skryptu
+
+# Podstawowe biblioteki do przetwarzania danych
+pandas>=1.5.0
+openpyxl>=3.0.10
+xlsxwriter>=3.0.3
+
+# Biblioteki do przetwarzania PDF
+PyPDF2>=3.0.1
+pdfplumber>=0.9.0
+
+# Biblioteki do machine learning
+scikit-learn>=1.1.0
+nltk>=3.8
+
+# Biblioteki do pracy z emailami
+imaplib (wbudowana w Python)
+email (wbudowana w Python)
+smtplib (wbudowana w Python)
+
+# Dodatkowe biblioteki systemowe
+python-dateutil>=2.8.2
+regex>=2022.10.31
+
+# Opcjonalne - dla lepszej analizy tekstu
+textblob>=0.17.1
+spacy>=3.4.0
+
+# Dodatkowe narzędzia
+tqdm>=4.64.0  # progress bars
+colorama>=0.4.5  # kolorowe output w konsoli
